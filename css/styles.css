@@ -7,10 +7,6 @@
   text-decoration: underline;
 }
 
-/* #hideJavascript { 
-  display: none;
-}
-*/
-#showJavascript {
+.flashcard-open {
   display: none;
 }

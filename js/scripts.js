@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(".clickable").click(function () {
-    $("#showJavascript").toggleClass();
+    $(this).parent().find(".flashcard-closed").toggle();
+    $(this).parent().find(".flashcard-open").toggle();
   });
 });
