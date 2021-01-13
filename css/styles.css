@@ -1,0 +1,16 @@
+.clickable {
+  cursor: pointer;
+  color: red;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+/* #hideJavascript { 
+  display: none;
+}
+*/
+#showJavascript {
+  display: none;
+}
